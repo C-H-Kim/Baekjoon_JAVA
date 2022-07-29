@@ -1,3 +1,5 @@
+package IO_ArithmeticOperation;
+
 import java.util.Scanner;
 
 public class bj_10869 {

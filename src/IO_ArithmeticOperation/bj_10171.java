@@ -1,3 +1,5 @@
+package IO_ArithmeticOperation;
+
 public class bj_10171 {
     public static void main(String[] args) {
         System.out.println("\\    /\\");

@@ -1,10 +1,11 @@
+package IO_ArithmeticOperation;
+
 import java.util.Scanner;
 
-public class bj_10926 {
+public class bj_18108 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        String id = sc.nextLine();
-        System.out.println(id + "??!");
+        int a = sc.nextInt();
+        System.out.println(a-543);
     }
 }
