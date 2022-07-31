@@ -7,6 +7,7 @@ public class bj_1193 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int X = Integer.parseInt(br.readLine());
         int cur_cnt = 1, prev_cnt_sum = 0;
+        //numerator -> 분자, denominator -> 분모
         int numerator, denominator;
 
         while(true) {
