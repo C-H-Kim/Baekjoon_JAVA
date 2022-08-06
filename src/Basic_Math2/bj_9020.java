@@ -1,6 +1,7 @@
 package Basic_Math2;
 
 import java.io.*;
+import java.util.Arrays;
 
 public class bj_9020 {
     public static void main(String[] args) throws IOException {
@@ -8,9 +9,7 @@ public class bj_9020 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         boolean[] prime_arr = new boolean[10001];
-        for(int i = 0; i < prime_arr.length; i++) {
-            prime_arr[i] = true;
-        }
+        Arrays.fill(prime_arr, true);
         create_prime(prime_arr);
 
         int T = Integer.parseInt(br.readLine());
